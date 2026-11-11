@@ -1,0 +1,41 @@
+# Local secrets and machine-specific configuration
+config/*cookie*.txt
+config/.env
+.env
+.env.*
+!.env.example
+
+# Harvested or derived datasets may contain user-generated text, pseudonymous IDs,
+# user names, titles, or other identifying context. Do not publish without review.
+data/**
+!data/**/.gitkeep
+
+# Local model weights/cache and model fingerprint
+models/**
+!models/**/.gitkeep
+
+# Generated figures, tables, workbooks, reports, and diagnostic logs
+results/**
+logs/**
+
+# Python/editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local handover notes and legacy launch shortcuts
+HANDOVER*.md
+PROMPT_NEW_SESSION.md
+*.pdf
+*.bat
+
+# One-off history maintenance scripts, not part of the reusable pipeline
+src/patch_*.py
+src/update_handover_*.py
+src/migrate_to_emb2.py
+src/organize_results.py

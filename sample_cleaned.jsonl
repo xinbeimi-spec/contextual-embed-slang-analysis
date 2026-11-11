@@ -1,0 +1,2 @@
+{"clean_id":"example-001","platform":"synthetic","text_norm":"这是一条虚构的哈词例句","target_start_norm":7,"target_end_norm":8,"sense_hint":"unknown","is_canonical":1,"excluded_from_typology":null}
+{"clean_id":"example-002","platform":"synthetic","text_norm":"哈？这也是虚构例句","target_start_norm":0,"target_end_norm":1,"sense_hint":"Q_question","is_canonical":1,"excluded_from_typology":null}

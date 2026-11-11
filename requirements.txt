@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+numpy
+scikit-learn
+matplotlib
+jieba
+torch
+transformers
+openpyxl
+python-pptx
