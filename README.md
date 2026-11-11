@@ -10,6 +10,10 @@
 | 数据分析与作图 | `src/analyze/` | CDPC 聚类、义项/历时统计、热力图、散点图及词频图 |
 
 `src/config.py` 是共享配置入口。路径根据仓库位置解析；目标词、短名和结果轮次可通过环境变量 `LING_WORD`、`LING_SLUG`、`LING_RESULT` 设置。默认目标词为 `哈`（`ha`），但部分分析脚本是针对特定词撰写的，运行前应阅读脚本说明并核对适用词与输入路径。
+## Project Materials / 项目材料
+
+- [Presentation / 项目展示 (PPTX)](docs/Project_Presentation.pptx)
+- [Research Report / 项目报告 (DOCX)](docs/Diachronic_Semantic_Analysis_Report_proofread.docx)
 
 ## 本公开仓库的范围
 
