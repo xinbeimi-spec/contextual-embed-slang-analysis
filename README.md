@@ -31,7 +31,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-本项目模型标识为 `hfl/chinese-roberta-wwm-ext`。
+本项目模型使用 `hfl/chinese-roberta-wwm-ext`。
 
 ## 主流程参考
 
