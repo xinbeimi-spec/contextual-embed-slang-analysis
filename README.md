@@ -31,11 +31,9 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-模型权重默认缓存在 Windows 用户配置目录下的 Hugging Face cache（通常位于 C 盘），不存入仓库。可用 `LING_HF_HOME` 指定其他缓存位置。下载需访问模型仓库；本项目模型标识为 `hfl/chinese-roberta-wwm-ext`。
+本项目模型标识为 `hfl/chinese-roberta-wwm-ext`。
 
 ## 主流程参考
-
-以下按阶段逐步运行；数据和模型权重需由使用者本地提供/生成：
 
 ```powershell
 # 设置目标词（示例）
@@ -66,4 +64,4 @@ python src/analyze/cdpc_pipeline.py --help
 
 ## 代码结构注意事项
 
-项目历史上由多个目标词的研究轮次逐步扩展。`src/crawl/`、`src/clean/`、`src/embed/` 和 `src/analyze/` 是按功能分层；分析目录还含目标词专用与探索性脚本，不应把所有脚本视为一个通用流水线。正式发布前请根据论文最终方法确定要保留的分析入口，并逐一标注目标词、向量表示和输入版本。
+项目历史上由多个目标词的研究轮次逐步扩展。`src/crawl/`、`src/clean/`、`src/embed/` 和 `src/analyze/` 是按功能分层；分析目录还含目标词专用与探索性脚本，不应把所有脚本视为一个通用流水线。
